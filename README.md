@@ -28,7 +28,8 @@ nginx. для этого было создано правило audit.rules
 ```git clone https://github.com/2kw92/logging && cd logging && vagrant up```     
 
 Заходим на сервер log      
-```vagrant ssh log``` 
+```vagrant ssh log```     
+ 
 И там выполняем:       
 ```
 ll /var/log/rsyslog/
