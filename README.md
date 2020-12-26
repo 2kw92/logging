@@ -41,14 +41,14 @@ ll /var/log/rsyslog/web
 Видим что на сервере log сохраняются как локальные так и логи с удаленного
 серевера web.       
 
-Далее зайдем на сервер web 
-```vagrant ssh web```      
+Далее зайдем на сервер web      
+```vagrant ssh web```       
 Там любым удобным способо изменим конфиг nginx и проверим:        
 ```ausearch -ts today -i | grep nginx```      
 Вывод на фото:     
-![alt text](https://github.com/2kw92/logging/blob/main/3.PNG)    
-Переходим на сервер log и там выполняем:
-```ausearch -ts today -i | grep nginx```     
-Вывод:       
+![alt text](https://github.com/2kw92/logging/blob/main/3.PNG)       
+
+Переходим на сервер log и там выполняем:      
+```ausearch -ts today -i | grep nginx```        
+Вывод:          
 ![alt text](https://github.com/2kw92/logging/blob/main/4.PNG)      
-   
