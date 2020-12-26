@@ -25,11 +25,14 @@ nginx. для этого было создано правило audit.rules
 
 Для проерки дз необходимо выполнить команду
 
-```git clone https://github.com/2kw92/logging && cd logging && vagrant up```     
+```git clone https://github.com/2kw92/logging ```      
+
+И запускаем развертывание виртуальных машин:     
+```vagrant up```     
 
 Заходим на сервер log      
 ```vagrant ssh log```     
- 
+
 И там выполняем:       
 ```
 ll /var/log/rsyslog/
