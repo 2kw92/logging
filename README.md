@@ -34,5 +34,5 @@ ll /var/log/rsyslog/
 ll /var/log/rsyslog/web
 ```      
 Вывод на фото:       
-![alt text](https://github.com/2kw92/logging/1.PNG?raw=true)          
+![alt text](https://github.com/2kw92/logging/blob/main/1.PNG?raw=true)          
 
