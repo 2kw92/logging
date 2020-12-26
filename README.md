@@ -34,6 +34,7 @@ ll /var/log/rsyslog/
 ll /var/log/rsyslog/web
 ```      
 Вывод на фото:       
+
 ![alt text](https://github.com/2kw92/logging/blob/main/1.PNG)      
 
 ![alt text](https://github.com/2kw92/logging/blob/main/2.PNG)     
@@ -48,7 +49,9 @@ ll /var/log/rsyslog/web
 Вывод на фото:     
 ![alt text](https://github.com/2kw92/logging/blob/main/3.PNG)       
 
-Переходим на сервер log и там выполняем:      
-```ausearch -ts today -i | grep nginx```        
+Переходим на сервер log и там выполняем:    
+
+```ausearch -ts today -i | grep nginx```       
+
 Вывод:          
 ![alt text](https://github.com/2kw92/logging/blob/main/4.PNG)      
